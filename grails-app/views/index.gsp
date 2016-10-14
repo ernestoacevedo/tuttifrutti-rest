@@ -58,7 +58,7 @@
 
         <!-- The container div that our React app will be rendered into (see app.js)  -->
         <div id="app">
-
+            <div id="content"></div>
         </div>
         <!-- The webpack-generated bundle -->
         <webpack:bundle file="bundle.js" devServer="true"/>
