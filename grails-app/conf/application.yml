@@ -1,4 +1,7 @@
 ---
+server:
+    port: 9001
+
 hibernate:
     cache:
         queries: false
