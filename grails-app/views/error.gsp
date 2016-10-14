@@ -24,7 +24,7 @@
         </g:if>
         <g:else>
             <ul class="errors">
-                <li>An error has occurred</li>
+                <li>A ocurrido un error</li>
             </ul>
         </g:else>
     </body>
