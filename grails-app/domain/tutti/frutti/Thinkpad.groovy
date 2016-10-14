@@ -6,7 +6,7 @@ import grails.rest.*
 class Thinkpad {
 
     String model
-    String year
+    Integer year
     Integer price
 
     static constraints = {
