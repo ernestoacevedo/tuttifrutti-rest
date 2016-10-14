@@ -1,13 +1,13 @@
 ---
 server:
-    port: 9001
+    port:9001
 
 hibernate:
     cache:
         queries: false
         use_second_level_cache: true
         use_query_cache: false
-        region.factory_class: 'org.hibernate.cache.ehcache.EhCacheRegionFactory'
+        region.factory_class: org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory
 
 dataSource:
     pooled: true
@@ -53,7 +53,7 @@ environments:
 grails:
     profile: web
     codegen:
-        defaultPackage: grails.react.starter
+        defaultPackage: tuttifrutti.rest
     spring:
         transactionManagement:
             proxies: false
@@ -63,10 +63,14 @@ info:
         version: '@info.app.version@'
         grailsVersion: '@info.app.grailsVersion@'
 spring:
-
     groovy:
         template:
             check-template-location: false
+# Spring Actuator Endpoints are Disabled by Default
+endpoints:
+    enabled: false
+    jmx:
+        enabled: true
 
 ---
 grails:
@@ -123,13 +127,3 @@ grails:
 endpoints:
     jmx:
         unique-names: true
-
-server:
-    port: 8080
-
-webpack:
-  dev-server:
-    enabled: true
-    url: http://localhost:3000
-  asset:
-    path: '/assets/'
