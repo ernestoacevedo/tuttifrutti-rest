@@ -7,4 +7,4 @@ Author:
 Colaborators
 
 - Jonathan Pitt
-- Che Ernesto :flag-ar:
+- Che Ernesto :ar:
