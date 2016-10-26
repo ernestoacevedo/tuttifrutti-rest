@@ -52,11 +52,6 @@
 
     <div id="content" role="main">
         <section class="row colset-2-its">
-            <h1>Usa la wea con CURL así:</h1>
-                <p>curl -i -H "Accept: application/json" localhost:9001/thinkpads/1</p>
-                <p>curl -i -X POST -H "Content-Type: application/json" -d '{"model":"spider","year":2010,"price":59888}' localhost:9001/thinkpads</p>
-                <p>curl -i -X PUT -H "Content-Type: application/json" -d '{"model":"T430"}' localhost:9001/thinkpads/1</p>
-                <p>curl -i -X DELETE localhost:9001/thinkpads/1</p>
         </section>
     </div>
 
