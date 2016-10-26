@@ -7,4 +7,4 @@ Author:
 Colaborators
 
 - Jonathan Pitt
-- Che Ernesto :ar:
+- Che Ernesto ![](http://emojipedia-us.s3.amazonaws.com/cache/4b/81/4b811def1434adbb0caf3509640291bb.png =24x24)
