@@ -1,4 +1,3 @@
-
 import tutti.frutti.Thinkpad
 
 class BootStrap {
